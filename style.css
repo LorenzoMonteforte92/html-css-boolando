@@ -69,6 +69,8 @@ h6{
    font-weight: lighter; 
 }
 
+
+
 /*------------
     GENERAL
 --------------*/
@@ -169,6 +171,24 @@ header .row{
 
 .old-price{
     text-decoration: line-through;
+}
+
+/*-----------
+    FOOTER
+-------------*/
+
+footer{
+    color: white;
+    background-color: #1A1A1A;
+    border-bottom: solid white 2px;
+    min-height: 50px;
+    margin-top: 45px;
+}
+
+.footer-link li > *{
+    font-weight: lighter;
+    font-size: medium;
+    padding-right: 20px;
 }
 
 
