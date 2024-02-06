@@ -105,21 +105,6 @@ h6{
     background-color: #008000;
 }
 
-/*----------
-    CARD
-------------*/
-
-.card{
-    position: relative;
-}  
-
-.card .discount{
-    position: absolute;
-    left: 0px;
-    bottom: 44px;
-}
-
-
 /*------------
     HEADER
 --------------*/
@@ -173,7 +158,16 @@ header .row{
 .card .discount{
     position: absolute;
     left: 0px;
-    bottom: 77px;
+    bottom: 65px;
+}
+
+.real-price{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
 }
 
 
