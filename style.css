@@ -193,6 +193,23 @@ header .row{
 }
 
 /*-----------
+    HOVER
+-------------*/
+
+.card .img-hover{
+    display: none;
+}
+
+.card:hover .img-hover{
+    display: block;
+}
+
+.card:hover .img-default{
+    display: none;
+}
+
+
+/*-----------
     FOOTER
 -------------*/
 
