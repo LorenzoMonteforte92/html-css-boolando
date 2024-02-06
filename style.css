@@ -136,3 +136,14 @@ header .row{
 /*----------
     CARD
 ------------*/
+
+.card{
+    position: relative;
+}
+
+.card .discount{
+    position: absolute;
+    left: 0;
+    bottom 40px;
+}
+
