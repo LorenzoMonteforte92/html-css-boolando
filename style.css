@@ -64,7 +64,7 @@ body{
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-weight: bold;
     
 }
@@ -98,15 +98,23 @@ header .row{
 
 .header-logo img{
     max-width: 124px;
+    padding-left: 20px;
 }
 
 .link-nav{
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.link-nav > *{
+    padding-right: 10px;
 }
 
 .link-icon{
     justify-content: end;
+}
+
+.link-icon > *{
+    padding-right: 8px;
 }
 
 /* header[class="col-25"]{
