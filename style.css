@@ -173,6 +173,25 @@ header .row{
     text-decoration: line-through;
 }
 
+.heart-container{
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.heart{
+    position: absolute;
+    font-size: x-large;
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
+}
+
 /*-----------
     FOOTER
 -------------*/
