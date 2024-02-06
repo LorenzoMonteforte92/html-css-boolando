@@ -56,14 +56,21 @@
     width: 70%;
 }
 
-/*------------
-    GENERAL
---------------*/
+/*---------------
+    TYPOGRAPHY
+-----------------*/
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 
+h6{
+    
+}
+
+/*------------
+    GENERAL
+--------------*/
 .link{
     display: flex;
     list-style: none;
@@ -154,6 +161,22 @@ header .row{
 .link-icon > *{
     padding-left: 8px;
 }
+
+/*----------
+    CARD
+------------*/
+
+.card{
+    position: relative;
+}  
+
+.card .discount{
+    position: absolute;
+    left: 0px;
+    bottom: 77px;
+}
+
+
 
 
 
