@@ -82,6 +82,14 @@ body{
     max-width: 100%;
 }
 
+.tag{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 10px;
+}
+
 
 /*------------
     HEADER
@@ -124,3 +132,7 @@ header .row{
 .link-icon > *{
     padding-left: 8px;
 }
+
+/*----------
+    CARD
+------------*/
