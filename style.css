@@ -98,6 +98,20 @@ body{
     background-color: #008000;
 }
 
+/*----------
+    CARD
+------------*/
+
+.card{
+    position: relative;
+}  
+
+.card .discount{
+    position: absolute;
+    left: 0px;
+    bottom: 44px;
+}
+
 
 /*------------
     HEADER
@@ -141,18 +155,5 @@ header .row{
     padding-left: 8px;
 }
 
-/*----------
-    CARD
-------------*/
-
-.card{
-    position: relative;
-}  
-
-.card .discount{
-    position: absolute;
-    left: 0px;
-    bottom: 44px;
-}
 
 
