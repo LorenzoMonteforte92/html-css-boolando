@@ -87,7 +87,15 @@ body{
     color: white;
     font-weight: bold;
     padding: 5px;
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.discount-tag{
+    background-color: #FF0000;
+}
+
+.sosten-tag{
+    background-color: #008000;
 }
 
 
@@ -139,11 +147,12 @@ header .row{
 
 .card{
     position: relative;
-}
+}  
 
 .card .discount{
     position: absolute;
-    left: 0;
-    bottom 40px;
+    left: 0px;
+    bottom: 44px;
 }
+
 
