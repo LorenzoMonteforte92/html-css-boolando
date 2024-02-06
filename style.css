@@ -36,6 +36,10 @@
     width: 30%;
 }
 
+.col-33{
+    width: calc(100% / 3);
+}
+
 .col-40{
     width: 40%;
 }
@@ -72,6 +76,10 @@ body{
 .link li > * {
     text-decoration: none;
     color: white;
+}
+
+.card img{
+    max-width: 100%;
 }
 
 
@@ -114,5 +122,5 @@ header .row{
 }
 
 .link-icon > *{
-    padding-right: 8px;
+    padding-left: 8px;
 }
