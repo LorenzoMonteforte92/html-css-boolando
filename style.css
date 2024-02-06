@@ -116,31 +116,3 @@ header .row{
 .link-icon > *{
     padding-right: 8px;
 }
-
-/* header[class="col-25"]{
-    line-height: 100% ;
-} */
-
-/* header .container{
-    display: flex;
-    justify-content: space-evenly;
-} */
-/* 
-header:nth-child(2){
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.logo-header{
-    text-align: center;
-    padding: 10px;
-}
-
-.logo-header img{
-    max-width: 150px;
-    max-height: 40px;
-}
-
-.link-icon{
-    justify-content: flex-end;
-} */
