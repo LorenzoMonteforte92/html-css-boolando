@@ -185,7 +185,7 @@ header .row{
 
 .heart{
     position: absolute;
-    font-size: x-large;
+    font-size: xx-large;
     width: 20px;
     height: 20px;
     top: calc(50% - 10px);
